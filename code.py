@@ -7,8 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.set_page_config(page_title="Sustainable Materials & Alloys Recommender", layout="wide")
 
 # Load datasets
-materials_df = pd.read_excel("Sustainable_Materials_Database_RealNames_200Plus.xlsx")
-alloys_df = pd.read_excel("Engineering_Alloys_Application_Database.xlsx")
+materials_df = pd.read_excel("Sustainable_Materials_Database_RealNames_200Plus (1).xlsx")
+alloys_df = pd.read_excel("Engineering_Alloys_Application_Database (1).xlsx")
 
 # Region adjustment factors
 region_factors = {
